@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "socialLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.social-links"
+    },
+    "implementedProjectsCount": {
+      "type": "integer"
+    },
+    "peopleCompletedCoursesNumber": {
+      "type": "integer"
+    },
+    "peopleInvolvedInProjectsNumber": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_social_links",
+  "info": {
+    "displayName": "Social links",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "telegram": {
+      "type": "string"
+    },
+    "vk": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}
