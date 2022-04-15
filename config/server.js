@@ -4,5 +4,5 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array("APP_KEYS"),
   },
-  url: env("NGINX_URL", "http://localhost:1337"),
+  url: env("NGINX_URL", "https://cms.mic.bmstu.ru"),
 });
