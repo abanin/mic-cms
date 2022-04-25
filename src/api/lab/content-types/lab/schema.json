@@ -4,7 +4,8 @@
   "info": {
     "singularName": "lab",
     "pluralName": "labs",
-    "displayName": "Labs"
+    "displayName": "Labs",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,37 +13,44 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "phone": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "previewImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

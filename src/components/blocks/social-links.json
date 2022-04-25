@@ -2,7 +2,8 @@
   "collectionName": "components_blocks_social_links",
   "info": {
     "displayName": "Social links",
-    "icon": "at"
+    "icon": "at",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,9 +17,6 @@
       "type": "string"
     },
     "vk": {
-      "type": "string"
-    },
-    "instagram": {
       "type": "string"
     }
   }

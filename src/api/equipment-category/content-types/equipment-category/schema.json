@@ -4,7 +4,8 @@
   "info": {
     "singularName": "equipment-category",
     "pluralName": "equipment-categories",
-    "displayName": "EquipmentCategories"
+    "displayName": "EquipmentCategories",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -22,7 +24,8 @@
         "skills",
         "programming",
         "design"
-      ]
+      ],
+      "required": true
     }
   }
 }

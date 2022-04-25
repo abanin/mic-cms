@@ -13,15 +13,17 @@
   "pluginOptions": {},
   "attributes": {
     "pageTitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "pageDescription": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "mainImage": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
