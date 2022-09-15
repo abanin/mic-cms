@@ -26,11 +26,11 @@
     },
     "email": {
       "type": "email",
-      "required": true
+      "required": false
     },
     "phone": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "previewImage": {
       "type": "media",
