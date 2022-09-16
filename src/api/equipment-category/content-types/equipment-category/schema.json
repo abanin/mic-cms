@@ -16,7 +16,7 @@
       "type": "string",
       "required": true
     },
-    "Type": {
+    "type": {
       "type": "string",
       "unique": true,
       "required": true

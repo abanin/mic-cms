@@ -23,17 +23,8 @@
       "target": "api::project.project",
       "inversedBy": "categories"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "digital",
-        "medical",
-        "chemistry",
-        "devices",
-        "bio",
-        "energy"
-      ],
-      "required": true
+    "Type": {
+      "type": "string"
     }
   }
 }
